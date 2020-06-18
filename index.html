@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Carousel / Slider con Glider.js</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="body-container">
+		<main class="main">
+			<img src="img/1.png" alt="Dome of the German Bundestag" class="main__imagen">
+			<div class="main__content">
+				<h1 class="main__content__title">Dome of the German Bundestag</h1>
+				<p class="main__content__summary">
+          The Reichstag dome is a glass dome, constructed on top of the rebuilt Reichstag building in Berlin.
+          It was designed by architect Norman Foster and built to symbolize the reunification of Germany.
+				</p>
+			</div>
+    </main>
+    
+    <div class="carousel">
+      <div class="carousel__container">
+        <button aria-label="Anterior" class="carousel__left">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+
+        <div class="carousel__list">
+          <div class="carousel__element">
+            <img src="./img/2.png" alt="Rock and Roll Hall of Fame">
+            <p>Rock and Roll Hall of Fame</p>
+          </div>
+          <div class="carousel__element">
+            <img src="img/3.png" alt="Constitution Square - Tower I">
+						<p>Constitution Square - Tower I</p>
+          </div>
+          <div class="carousel__element">
+            <img src="img/4.png" alt="Empire State Building">
+						<p>Empire State Building</p>
+          </div>
+          <div class="carousel__element">
+            <img src="img/5.png" alt="Harmony Tower">
+						<p>Harmony Tower</p>
+          </div>
+          <div class="carousel__element">
+            <img src="img/6.png" alt="Empire State Building">
+						<p>Empire State Building</p>
+          </div>
+          <div class="carousel__element">
+            <img src="img/7.png" alt="Harmony Tower">
+						<p>Harmony Tower</p>
+          </div>
+          <div class="carousel__element">
+            <img src="img/8.png" alt="Empire State Building">
+						<p>Empire State Building</p>
+          </div>
+          <div class="carousel__element">
+            <img src="img/9.png" alt="Harmony Tower">
+						<p>Harmony Tower</p>
+          </div>
+          <div class="carousel__element">
+            <img src="img/1.png" alt="Dome of the German Bundestag">
+						<p>Dome of the German Bundestag</p>
+          </div>
+        </div>
+
+        <button aria-label="Siguiente" class="carousel__right">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+
+      <div rol="tablist" class="carousel__indicators">
+
+      </div>
+    </div>
+	</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
